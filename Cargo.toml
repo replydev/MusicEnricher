@@ -10,3 +10,5 @@ unsafe_code = "forbid"
 
 [workspace.dependencies]
 tokio = { version = "1.37.0", features = ["full"] }
+reqwest = "0.12.3"
+anyhow = "1.0.81"

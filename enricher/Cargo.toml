@@ -6,3 +6,5 @@ edition = "2021"
 
 [dependencies]
 tokio = { workspace = true, features = ["full"] }
+reqwest = { workspace = true, features = ["json"] }
+anyhow = { workspace = true }
