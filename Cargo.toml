@@ -4,3 +4,6 @@ resolver = "2"
 members = [
 	"enricher"
 ]
+
+[workspace.dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
